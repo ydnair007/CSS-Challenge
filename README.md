@@ -2,6 +2,9 @@
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
+## My Take
+https://stats-preview-css.netlify.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
