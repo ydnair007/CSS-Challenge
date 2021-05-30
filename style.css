@@ -15,8 +15,12 @@ body {
   place-items: center;
   background: var(--dark-blue);
   color: var(--white);
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   font-family: "Inter", sans-serif;
+  min-width: 90vh, 70rem;
 }
 
 .card {
@@ -26,6 +30,7 @@ body {
   color: white;
   display: flex;
   overflow: hidden;
+  flex-wrap: wrap-reverse;
 }
 .card > span {
   color: var(--soft-voilet);
@@ -53,7 +58,6 @@ body {
 }
 
 .img {
-  flex: 1;
   background-image: url(./images/image-header-desktop.jpg);
   background-size: cover;
   width: 50vh;
@@ -82,5 +86,6 @@ body {
 }
 
 .attribution {
+  font-family: serif;
   font-size: 2rem;
 }
