@@ -25,6 +25,7 @@ body {
 .card {
   border-radius: 0.5rem;
   text-align: left;
+  margin: 1rem;
   background: var(--saturated-blue);
   margin: 1.5rem;
   color: white;
@@ -89,4 +90,10 @@ body {
 .attribution {
   font-family: serif;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    text-align: center;
+  }
 }
